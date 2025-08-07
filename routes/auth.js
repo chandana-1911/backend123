@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt");
 const router = express.Router();
 
 // In-memory user array (simulate a database)
-const users = [];
+const users = ("./../model/User")
 
 // Register route
 router.post("/login", async (req, res) => {
